@@ -1,0 +1,125 @@
+Web Site Structure-
+    A website is typically composed of many files.
+    It will have the following:
+        1) HTML Files
+            It is used for designing and structuring the website
+        2) CSS Files
+            Used for animations and decorating the webpage
+        3) Image Files
+            There are two file formats (GIF and JPEG) which is supported by all browsers.
+        4) Object Files
+            These include Audio and Video files, Flash files and Java Files.
+        5) Server Side Scripts
+            This is mainly the backend part which includes ASP, ASP.NET, JSP, Cold fusion, etc.
+
+Basic WEB DEVELOPMENT PROCESS
+    1) Create a HTML File and test it locally on the test browsers.
+    2) Upload the files to the web server where other people can also see it. 
+        It is uploaded via FTP/SFTP and there, we again test the files on the 
+        web server.
+
+Types of Webpages-
+    1) Static Webpage
+        a) Mostly used for reading purposes only and does not include any input.
+    2) Dynamic Webpage
+        a) It includes the Javascript part where the content can change based on our input.
+
+Working of a Static Webpage (Static Web Content)-
+    a) Browser request index.html from server (by default it will search for this page)
+    b) After connecting to the web server, the server responds by sending content of
+       index.html to browser.
+
+Working of a Dynamic Webpage (Dynamic Web Content)-
+    a) Browser request index.html from server.
+    b) Server recognises request as program or script.
+    c) Program runs, gets the information about the request from the server, interact with the server 
+        resource such as database and generates the response (HTML and Javascript) that is sent back to browser.
+
+Note:
+    1) Always test your pages on as many browsers as possible because 
+    the program might work on one browser but not on the other.
+    2) Always test your pages on as many computer platforms as possible.
+        For example, if a code runs according to your computer specifications and if you send your
+        program to another computer with different specifications, then the alignment will change 
+        according to those specifications.
+
+Your <head> tag contains all the links, the title of the webpage, etc.
+Your <body> tag contains everything that you want to display on the webpage
+The <!DOCTYPE> shows the document type which is HTML.
+
+Basics of HTML-
+    1)HTML provides a total of 6 headings (h1 to h6)
+    2)h1 is the largest and most boldest while h6 is the least boldest and smallest.
+    3) Meta tags are the <br> tag and the <hr> tag
+        <br> - one line gap
+        <hr> a horizontal line is drawn
+        There are no closing tags for these.
+    4) Comments can be given by <!--Comment--> or /*Comment*/
+    5) <p> is used for typing any paragraph. There are two types of paragragh, 
+        a normal <p> and a pre-defined <pre> paragraph.
+    6) *{} is used as a full-screen to remove the margin space.
+    7) <span> tag is used to highlight any text in the paragraph.
+    8)<a href="link"> is the tag used for redirecting the page to another based on the link given in the href.
+        If we use "#" in the link section, it will not redirect.
+        The hover function is used to change the properties of the button when the pointer is over it.
+    9) Color codes is used to get various shades of the same color.
+    10) The <div> tag is used to divide the screen into many parts.
+    11) A class name is used to differentiate/ uniquely identify the divsion tag.
+        a) To call a class, we need to place a dot before the class name.
+        b) To call an ID, we need to place "#" before the ID.
+    12) <ol> stands for Ordered List and <li> is called List item and is used for inserting a list item.
+        By default, the numbering would be from 1 but if you want variables like 'A' or 'a', then you will have to type
+            <ol type='A'>
+        For Roman numerals, we need to add "i/I" in the place of "a/A".
+    13) >ul> stands for Unordered List. By default, it is of the disk bullets.
+         To change it, we can write "circle" or "square".
+         If no bullets are needed, you can type "none".
+    14) For adding an icon to the list item, we can go to the browser and type "font awesome bootstrap cdn"
+        For the icons, we need to type "font awesome icons 4.7"
+            a) To increase the size of the icons, we need to type in the link "fa-lg"
+            b) To increase the size multiple times, we type "fa-3x" (3 times increase)
+            c) To spin the icon, we need to type "fa-spin"
+
+HTML Tables -
+    We make use of the <table> tag
+    <tr> - table row
+    <tc> - table column
+    <th> - table title
+    <td> - table data (used for inserting data into the table)
+
+Note - In the CSS page, no style tag will be included.
+    1) Difference between background color and background Image in html tables
+        For one color, we use background color whereas for a gradient of colors, we use background image
+    2) Angle - from what angle the color starts to change.
+    3) colspan is used for merging two or more columns.
+        When we merge the columns, we remove the extra merged columns.
+    4) rowspan is used for merging two or more rows.
+        When we merge the rows, the extra row needs to be removed.
+
+HTML FORMS - 
+    1) Uses the tag <form>.
+    2) 'Label' is for asking what has to be entered.
+        Alternatively, one can also give "Placeholder" field inside the input instead of a Label.
+        'required' makes it mandatory to fill the answer.
+    3) 'input' is where the user enters the answer.
+    4) 'select' is used to produce a drop down menu.
+    5) 'button' tool generates a button.
+    6) box-shadow attribute -
+        box-shadow: 1px(left-right shadow) 1px(top-bottom shadow) 16px(area to be spread out) black(color);
+
+Javascript Validation - 
+    For Javascript validation, we don't need to use "required".
+    
+    1) 'Onsubmit' goes to the function for verification after clicking on the submit button. 
+    
+Note:
+    1) Make sure that in the form name, the given name is the same as the one in the above form name.
+    2) 'e' stands for 'event'.
+
+Javascript Testimonials - 
+    After doing the following operations, we can use the different Bootstrap options available.
+
+Note:
+    1) For sending a mail to someone from the contact us section, we need to use "mailto: the mail"
+    2) For sending a call to someone from the contact us section, we need to use "tel: country_code+number"
+    3) For api integration of Whatsapp, we need to write "https://api.whatsapp.com/send?phone=+country_code+number"

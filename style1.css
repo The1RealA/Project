@@ -1,0 +1,186 @@
+/* To remove all margins
+            *{
+                margin:0;
+            }
+            */
+
+            h1{
+                background-color: black;
+                color: aliceblue;
+                font-style: italic;
+                font-size: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin:30px;
+            }
+            pre{
+                background-color: red;
+                color: aliceblue;
+                font-size: medium;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin:20px;
+            }
+            p span{
+                font-size: 25px;
+                color:aqua;
+                font-weight: bold;
+            }
+            p a{
+                text-decoration:none;
+                color:orange;
+            }
+            p a:hover{
+                color:blue;
+                font-weight: bold;
+            }
+            .container{
+                /*To get the parts in a horizontal direction, we use the flex condition.*/
+                display:flex;
+            }
+            .container .card{
+                width: 25%; /*100% is taken as the complete width of the screen.
+                So, if you want to divide it into 4 parts, we take 25%*/
+                height: 400px;
+                border:1px solid black;
+
+            }
+            .container .card1{
+                
+                width: 25%; /*100% is taken as the complete width of the screen.
+                So, if you want to divide it into 4 parts, we take 25%*/
+                height: 400px;
+                border:1px solid black;
+                background-image: url(System\ work\ flow.PNG);
+                background-size: cover; /*Fit the image*/
+            }
+            .container .card1 h2{
+                text-align:center;
+                padding:100px; /*Equally distributes the space around the element*/
+                padding-top:50px;
+                color:aqua;
+            }
+            .container .card2 img{
+                width:100%; /*100% of card 2*/
+                height: 400px;
+            }
+            .container .card3 img{
+                width:100%;
+                height:300px; 
+            }
+            .container .card3 .p1{
+                text-align: center;
+                background-color: transparent;
+            }
+            .container .card4{
+                text-align: center;
+            }
+            .container .card4 h2{
+                text-align: center;
+                color: yellow;
+                padding:10px;
+            }
+            .container .card4 .p2{
+                background-color: transparent;
+                padding:10px;
+                color:orange;
+                font-family: verdana;
+                font-size:15px;
+            }
+            .container .card4 a{
+                text-decoration:dashed;
+                color:black;
+                background-color: orange;
+                padding:10px;
+                margin:10px; /*To get the button away from the sides*/
+            }
+            .html_table{
+                background-image: linear-gradient(30deg,#3190C9,#EFC413,#C113EF,#EF2E13,#13EF17);
+            }
+            .html_table h2{
+                text-align: center;
+                color:black;
+                font-size: 30px;
+                padding:20px;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .html_table table{
+                margin:20px;
+                width:95%;
+                border-collapse: collapse;
+                
+            }
+            .html_table table td,th{
+                padding:10px;
+                text-align: center;
+                border:2px solid white;
+                color:white;
+            }
+            .html_form{
+                padding:50px;
+                text-align: center;
+            }
+            .html_form form{
+                margin:20px;
+                padding:20px;
+                box-shadow:1px 1px 16px black;
+                border-radius: 10px;
+                width:95%;
+                text-align: center;
+            }
+            .html_form form h2{
+                color:blue;
+                font-size: 25px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding:10px;
+            }
+            .html_form form input{
+                width:90%;
+                padding:10px;
+                margin:10px;
+                border-radius: 5px;
+                border:none;
+                outline:none;
+                border-left: 2px solid orange;
+            }
+            /*To highlight when the pointer is over the box*/
+            .html_form form input:hover{
+                border-left: 4px solid blue;
+            }
+            /*To highlight when the pointer clicks the text input box*/
+            .html_form form input:focus{
+                border-left:4px solid blue;
+                box-shadow: 1px 1px 8px black;
+            }
+            .html_form form select{
+                width:90%;
+                padding:5px;
+                margin:10px;
+                border-radius: 5px;
+                border:none;
+                outline:none;
+                border-left: 2px solid orange;
+            }
+            .html_form form select:focus{
+                border-left:4px solid blue;
+                box-shadow: 1px 1px 8px black;
+            }
+            .html_form form select:hover{
+                border-left: 4px solid blue;
+                box-shadow: 1px 1px 8px black;
+            }
+            .html_form form button{
+                margin:10px;
+                padding:10px;
+                border:none;
+                background-color: orange;
+                color:blue;
+                font-weight: bold;
+                font-family:'Courier New', Courier, monospace;
+                font-size:12px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 8px black;
+            }
+            .html_form form button:hover{
+                border:4px solid black;
+                border-left: 4px solid blue;
+                border-right:4px solid blue;
+            }

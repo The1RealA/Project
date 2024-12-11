@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+        
+        <!--We have to link the style.css onto this file.-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--Single or Multi line commene-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3><br><hr>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!--Paragraph-->
+        <p><span>L</span>orem <span>i</span>psum dolor sit amet consectetur<br>
+            adipisicing elit. Sint delectus nisi, non aliquid reiciendis ipsum odio<br>
+            voluptatibus iure soluta voluptatem asperiores dignissimos amet corporis<br>
+             eaque modi quo ex facere et.</p>
+
+        <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Quam mollitia nam molestiae praesentium voluptatibus doloribus 
+             iure animi modi? Dolores nihil nesciunt, blanditiis autem ipsam 
+             ullam repudiandae pariatur voluptatibus cum vitae.</pre>
+
+        <p><a href="about.html">About Us</a></p>
+
+        <!--Division Tags-->
+        <div class="container">
+
+            <div class="card card4">
+                <h2>Box 4</h2>
+                <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero architecto accusantium non nam a perferendis voluptatum nemo iure ullam commodi eligendi necessitatibus provident nostrum atque amet laborum, voluptatem voluptas! Iste!</p>
+                <a href="know_more.html">Know more</a>
+            </div>
+
+            <div class="card card2">
+                <img src="root_pic.jpg">
+            </div>
+
+            <div class=" card card1">
+                <h2>Box 1</h2></div>
+
+            <div class="card card3">
+                <img src="System work flow.PNG">
+                <p class="p1"><h4> BOX 3 </h4>
+                This is Box 3</p>
+            </div>
+
+        </div>
+
+        <!--Ordered List and Unordered List-->
+        <div class="html_list">
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Jquery</li>
+                <li>php</li>
+            </ol>
+            <br>
+            <h2>Unordered List</h2>
+            <ul type="none">
+                <li><i class="fa fa-code fa-2x fa-spin" aria-hidden="true"></i>HTML</li>
+                <li><i class="fa fa-css3" aria-hidden="true"></i>css</li>
+                <li><i class="fa fa-jsfiddle" aria-hidden="true"></i>Javascript</li>
+            </ul>
+        </div>
+
+        <!--HTML TABLES-->
+        <div class="html_table">
+            <h2>Student Data</h2>
+            <table>
+                <tr><th>Name</th><th>Email</th><th>Branch</th><th>College</th></tr>
+                <tr><td>Abc</td><td>abc@gmail.com</td><td>CSE</td><td>xyz</td></tr>
+                <tr><td rowspan="2">Pqr</td><td>pqr@gmail.com</td><td colspan="2">ECE</td></tr>
+                <tr><td>jkl@gmail.com</td><td>Mech</td><td>thu</td></tr>
+                <tr><td>Lmao</td><td>lmao@gmail.com</td><td>IT</td><td>mon</td></tr>
+            </table>
+        </div>
+
+        <!--HTML Form-->
+        <div class="html_form">
+            <h2>HTML FORM</h2>
+            <form>
+                <h2>Register</h2>
+                <input type="text" name="" placeholder="Full Name: " required><br>
+                <input type="email" name="" placeholder="Email ID: " required><br>
+                <input type="number" name="" placeholder="Contact Number: " required><br>
+                <select required>
+                    <option>--Branch--</option>
+                    <option>CSE/IT</option>
+                    <option>EEE/ECE</option>
+                    <option>Mech</option>
+                </select><br>
+                <select required>
+                    <option>--Year--</option>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                    <option>4th</option>
+                </select><br>
+                <input type="text" name="" placeholder="College Name" required><br>
+                <button type="submit">Register</button>
+                <button type="reset">Refresh</button>
+            </form>
+        </div>
+    </body>
+</html>
